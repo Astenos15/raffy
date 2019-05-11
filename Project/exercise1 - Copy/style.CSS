@@ -1,0 +1,173 @@
+
+body {
+	background-color:  white;
+	padding:  0px;
+	margin:  0px;
+	font-size: 16px;
+	font-family: 'Just Another Hand', cursive;
+}
+
+li {
+	font-size: 24px;
+}
+
+ nav {
+ 	background-color: maroon;
+ 	color: white;
+ }
+
+ nav #nav-list {
+ 	list-style-type: none;
+ 	margin: 0px;
+ 	padding: 0px;
+}
+ nav ul li {
+ 	padding: 16px;
+ 	text-align: center;
+ 	transition: background-color 0.3s, padding 0.8s linear;
+
+ }
+
+nav ul li:hover {
+	background-color: black;
+	border-radius: 50px;
+	margin-bottom: 0px;
+}
+#main h1 {
+	margin: 0px;
+	text-align: center
+	font-size: 2.5rem;
+	color: orange;
+}
+
+#main p{
+	width: 50%;
+	text-align: center;
+	color: orange;
+	text-shadow: 5px 5px 4px #DAA520;
+}
+#Testimonials{
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap; 
+	text-align: center;
+	margin: 30px;
+}
+.customer{
+	border: 1px solid black;
+	box-shadow: 15px 15px 15px black;
+	border-radius: 50px;
+	margin-right: 20px;
+	margin: 30px;
+	text-align: center;
+}
+.customer:hover{
+	box-shadow: 5px 5px 15px black;
+	background-color: gray;
+	transition: background-color 0.3s, padding 0.8s linear;
+}
+#showcase{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#showcase .cards:hover{
+	border-radius: 50px;
+	box-shadow: 5px 5px 15px black;
+	overflow: hidden;
+}
+.cards{
+	margin: 10px;
+	border-radius: 50px;
+	overflow: hidden;
+	box-shadow: 15px 15px 15px black;
+}
+
+.cards .card-img{
+	height: 250px;
+	width: 250px;
+	overflow: hidden;
+}
+.cards .card-img img{
+	height: 75%;
+	width: 75%;
+}
+.cards .card-title{
+	padding:10px;
+}
+.cards .cards-desc{
+	padding:10px; 
+}
+.cards .button{
+	margin:10px;
+}
+.cards .button a{
+	padding:10px;
+	color:black;
+	background-color: maroon;
+}
+ a {
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+ footer {
+ 	background-color: maroon;
+ 	display:flex;
+ 	align-items: center;
+ 	justify-content: space-around;
+ }
+ footer a{
+ 	padding:20px;
+ }
+ #media-icons ul{
+ 	display:flex;
+ 	list-style-type: none;
+ 	padding:20px;
+}
+#main {
+	background: linear-gradient(to left,rgba(135, 0, 0, 0.5),rgba(25, 10, 5, 0.5)),url(bake.jpg);
+	min-height: 500px;
+	margin-top: 0px;
+	background-size: cover;
+	padding-top: 200px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for responsive web design */
+ @media screen and (min-width: 700px){
+ 	nav ul {
+ 		text-align: right;
+ 	}
+ 	nav ul li {
+ 		display: inline-block;
+ 		border-bottom: 0px;
+ 		text-align: left;
+ 	}	
+ } 

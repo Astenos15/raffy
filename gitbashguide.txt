@@ -1,0 +1,120 @@
+$cd dan
+
+$git clone
+
+$git status
+
+$1s
+
+$git add
+
+$git commit -m
+
+$run
+
+$git push
+
+Steps:
+
+git config --global user.name "username"
+
+git config --global user.email "email"
+
+git config --list
+
+Commands:
+
+ 1  git commit -m
+    2  clear
+    3  1s
+    4  1s
+    5  clear
+    6  git config --global user.name "username"
+    7  set your email address:
+    8  git config --global user.email "email"
+    9  clear
+   10  git config --global user.name
+   11  clear
+   12  git config --global user.name "Astenos15"
+   13  git config --global user.email "Astenos15@gmail.com"
+   14  git config --list
+   15  git clone  https://github.com/Astenos15/test-git.git
+   16  history
+
+
+git clone
+
+sample:
+Student@DESKTOP-IVGERLT MINGW64 ~/Desktop
+$ cd testgit
+bash: cd: testgit: No such file or directory
+
+Student@DESKTOP-IVGERLT MINGW64 ~/Desktop
+$ cd test-git
+
+Student@DESKTOP-IVGERLT MINGW64 ~/Desktop/test-git (master)
+$ git add index.html
+
+Student@DESKTOP-IVGERLT MINGW64 ~/Desktop/test-git (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   index.html
+
+
+Student@DESKTOP-IVGERLT MINGW64 ~/Desktop/test-git (master)
+$ git commit -m"addex index.html"
+[master 1fbd0c0] addex index.html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+
+Student@DESKTOP-IVGERLT MINGW64 ~/Desktop/test-git (master)
+$ git log
+commit 1fbd0c0f58e87a7563535497ee7d7248b10b096d (HEAD -> master)
+Author: Astenos15 <Astenos15@gmail.com>
+Date:   Mon May 6 16:22:51 2019 +0800
+
+    addex index.html
+
+commit 0b84722df74adbf3c5468c7179970321d5fccf3d (origin/master, origin/HEAD)
+Author: Astenos15 <50134678+Astenos15@users.noreply.github.com>
+Date:   Mon May 6 15:39:27 2019 +0800
+
+    addedreadme
+
+Student@DESKTOP-IVGERLT MINGW64 ~/Desktop/test-git (master)
+$
+$ git branch -a
+
+
+<div class="row d-flex justify-content-around align-items-center">
+	      <div class="card" style="width: 18rem;">
+	        <img src="C:\Users\Student\Desktop\now-ui-kit-master\now-ui-kit-master\assets\img\card1.jpg" class="card-img-top" alt="..." height="300px">
+	        <div class="card-body">
+	          <h5 class="card-title">Card title</h5>
+	          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	          <a href="#" class="btn btn-primary">Buy</a>
+	        </div>
+	      </div>
+	        <div class="card" style="width: 18rem;">
+	        <img src="C:\Users\Student\Desktop\now-ui-kit-master\now-ui-kit-master\assets\img\card2.jpg" class="card-img-top" alt="..." height="300px">
+	        <div class="card-body">
+	          <h5 class="card-title">Card title</h5>
+	          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	          <a href="#" class="btn btn-primary">Buy</a>
+	        </div>
+	      </div>
+	            <div class="card" style="width: 18rem;">
+	        <img src="C:\Users\Student\Desktop\now-ui-kit-master\now-ui-kit-master\assets\img\card3.jpg" class="card-img-top" alt="..." height="300px">
+	        <div class="card-body">
+	          <h5 class="card-title">Card title</h5>
+	          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	          <a href="#" class="btn btn-primary">Buy</a>
+	          </div>
+	        </div>
+	    </div>    
+    </div>

@@ -1,0 +1,61 @@
+.navbar{
+	background-color: skyblue;
+}
+
+body{
+	margin: 0px;
+	align-items: center
+}
+
+#card {
+	margin: 20px;
+		align-items: center;
+	justify-content: center
+}
+#feat{
+	padding: 20px;
+}
+ #icons ul li{
+ 	list-style-type: none;
+ 	background-color: skyblue;
+ }
+#slide {
+	height: 50%;
+	width: 50%;
+	justify-content: center;
+}
+#container {
+	display: flex;
+	flex-direction: row-reverse;
+}
+a {
+ 	text-decoration: none;
+ 	color: white;
+ }
+
+ #footer {
+ 	background-color:skyblue;
+ 	display:flex;
+ 	list-style-type: none;
+ 	align-items: center;
+ 	justify-content: space-around;
+ }
+ 
+ #footer a{
+ 	padding:20px;
+
+
+
+
+/* for responsive web design */
+ @media screen and (min-width: 700px){
+ 	nav ul {
+ 		text-align: right;
+ 	}
+ 	nav ul li {
+ 		display: inline-block;
+ 		border-bottom: 0px;
+ 		text-align: left;
+ 	}	
+ } 
+
